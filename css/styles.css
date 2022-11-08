@@ -38,6 +38,10 @@ body {
     background-color: var(--primary-bg-color);
 }
 
+p {
+    margin: 0;
+}
+
 .list {
     padding: 0;
     margin: 0;
@@ -242,9 +246,6 @@ body {
 }
 
 .feature-list .descr {
-    margin-top: 0;
-    margin-bottom: 0;
-
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
@@ -256,7 +257,7 @@ body {
     justify-content: space-between;
 }
 
-.works-list img {
+.works-list .work {
     display: block;
 }
 /* Команда */
@@ -300,9 +301,6 @@ body {
 }
 
 .team-list .descr {
-    margin-top: 0;
-    margin-bottom: 0;
-
     color: var(--secondary-color);
 }
 
@@ -323,15 +321,17 @@ body {
     margin-bottom: 9px;
 }
 
-.addresses-list .address {
+.addresses-list .address,
+.addresses-list .contact{
     font-style: normal;
     letter-spacing: 0.03em;
+}
+
+.addresses-list .address {
     color: var(--secondary-accent-color);
 }
 
 .addresses-list .contact {
-    font-style: normal;
-    letter-spacing: 0.03em;
     color: var(--adress-contact-color);
 }
 
@@ -416,9 +416,6 @@ body {
 }
 
 .projects-list .descr {
-    margin-top: 0;
-    margin-bottom: 0;
-
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
