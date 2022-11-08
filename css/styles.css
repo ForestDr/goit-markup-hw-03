@@ -392,9 +392,6 @@ p {
 .projects-list > .item {
     margin-top: var(--projects-set-gap);
     margin-left: var(--projects-set-gap);
-
-    /* задал outline поскольку border влияет на геометрию обьекта */
-    outline: 1px solid #eeeeee;
 }
 
 .projects-list .project {
@@ -403,6 +400,8 @@ p {
 
 .projects-list .box {
     padding: 20px 24px;
+
+    border: 1px solid #eeeeee;
 }
 
 .projects-list .title {
