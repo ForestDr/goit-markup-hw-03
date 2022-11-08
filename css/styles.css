@@ -183,7 +183,6 @@ p {
 }
 
 .hero-btn {
-    display: inline-block;
     padding: 10px 32px;
 
     font-family: inherit;
@@ -349,7 +348,6 @@ p {
 }
 
 .filter-btn {
-    display: inline-block;
     padding: 6px 22px;
 
     font-family: inherit;
