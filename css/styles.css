@@ -50,8 +50,6 @@ p {
 }
 
 .link {
-    display: block;
-
     text-decoration: none;
 }
 
@@ -101,6 +99,7 @@ p {
 }
 
 .footer-logo {
+    display: inline-block;
     margin-bottom: 20px;
 
     color: var(--secondary-accent-color);
@@ -147,6 +146,7 @@ p {
 
 .site-nav-link,
 .contacts-list .contact {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -339,6 +339,8 @@ p {
 
 .addresses-list .address,
 .addresses-list .contact{
+    display: inline-block;
+
     font-style: normal;
     letter-spacing: 0.03em;
 }
