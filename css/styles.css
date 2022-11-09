@@ -63,6 +63,19 @@ p {
     width: 1200px;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 /* Хедр  */
 
 .page-header {
@@ -251,6 +264,10 @@ p {
 
 /* Чим ми займаємося  */
 
+.section.no-padding {
+    padding-top: 0;
+}
+
 .works-list {
     display: flex;
     justify-content: space-between;
@@ -368,8 +385,6 @@ p {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    padding: 6px 25px;
-
     color: var(--secondary-accent-color);
 
     background-color: var(--accent-color);
